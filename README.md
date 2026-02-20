@@ -1,19 +1,20 @@
-# 🎈 Blank app template
+# TrackMySubs-Style Streamlit UI
 
-A simple Streamlit app template for you to modify!
+A Streamlit prototype that mimics the layout and flow from your provided screenshots:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+- Top alert strip + navigation header
+- Subscriptions page with folders panel and list rows
+- "New" multi-step subscription wizard (company → billing → cost/alerts)
+- Calendar-style renewal summary page
+- My Account preferences page with side menu
 
-### How to run it on your own machine
+## Run
 
-1. Install the requirements
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Notes
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+This is a visual/functionality-inspired educational prototype built from screenshot references and is not an official TrackMySubs product.
